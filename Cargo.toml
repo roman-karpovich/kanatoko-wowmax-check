@@ -1,0 +1,13 @@
+[package]
+name = "kanatoko-wowmax-check"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.91"
+description = "Independent test: the deployed WOWMAX aggregator against captured mainnet pools"
+license = "MIT OR Apache-2.0"
+publish = false
+
+[workspace]
+
+[dev-dependencies]
+kanatoko = { version = "=29.1.0", features = ["capture"] }
